@@ -1,0 +1,130 @@
+.border {
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: #434343;
+    position: relative;
+    margin-right: 35%;
+    box-shadow: 0px 0px 4px #222222 ;
+    margin-left:35%;
+    display: block;
+    transition: all 0.15s ease;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    &:hover {
+        box-shadow: 0px 0px 8px #222222 ;
+        border-radius:6%;
+        background-color: #464646
+      } 
+}
+
+
+
+body {
+    background-color: #494949;
+
+}
+
+.text1 {
+    text-align: center;
+    color: #e4e4e4;
+    font-size: 35px;
+    position: relative;
+    font-family: Lucida Sans Unicode;
+    text-shadow: 0px 0px 8px #131313 ;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    
+}
+
+.text2 {
+    text-align: center;
+    color: #e4e4e4  ;
+    font-size: 20px;
+    position: relative;
+    font-family: Lucida Sans Unicode;
+    text-shadow: 0px 0px 8px #131313 ;
+    margin-right: auto;
+    margin-top: auto;
+ 
+    
+}
+
+.download {
+    border-radius: 15px;
+    transition: all 0.15s ease;
+    font-size: 45px;
+    display: block;
+    max-width: 100%;
+    overflow:hidden;
+    border: 0;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px #131313;
+    margin-right: auto;
+    margin-top: 15;
+    margin-bottom: 15;
+    
+    margin-left: auto;
+    text-align: center;
+    text-shadow: 0px 0px 5px#1f1f1f;
+    font-family: Lucida Sans Unicode;
+    background-color: #6c6c6c;
+    &:hover {
+        color:white;
+        background: #777777;
+        box-shadow: 0px 0px 15px #151515 ;
+        
+      } 
+    &:active {
+        color:rgb(180, 180, 180);
+        background: #505050;
+        box-shadow:  0px 0px 35px #151515;
+        font-size: 43px;
+        
+        
+      }
+
+    
+}
+
+.up {
+    text-align: left;
+    background-color: #222222;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow:hidden;
+    margin-left: auto;
+    height: 45px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 0;
+    box-shadow: 0px 5px 5px#303030;
+}
+
+.text3 {
+    text-align: left;
+    margin-left: 15;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    color: #e4e4e4  ;
+    overflow:hidden;
+    font-size: 30px;
+    font-family: Lucida Sans Unicode;
+    text-shadow: 0px 0px 8px #000000 ;
+}
+
+
+.heart {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+            
